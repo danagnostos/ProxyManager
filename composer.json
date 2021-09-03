@@ -21,7 +21,7 @@
     "require": {
         "php":                       "~7.4.1 || ^8.0",
         "laminas/laminas-code":      "^3.4.1",
-        "albundi/package-versions": "^1.8.0,<1.10.0",
+        "albundi/package-versions": "main",
         "webimpress/safe-writer":    "^2.0.1"
     },
     "conflict": {

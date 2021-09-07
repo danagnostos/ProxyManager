@@ -59,6 +59,12 @@
             "Laminas\\Server\\": "tests/Stubbed/Laminas/Server"
         }
     },
+    "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/danagnostos/PackageVersions.git"
+    }
+  ],
     "extra": {
         "branch-alias": {
             "dev-master": "3.0.x-dev"

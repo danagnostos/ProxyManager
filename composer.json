@@ -1,5 +1,5 @@
 {
-    "name":              "albundy/proxy-manager",
+    "name":              "ocramius/proxy-manager",
     "description":       "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
     "type":              "library",
     "license":           "MIT",
@@ -19,9 +19,9 @@
         }
     ],
     "require": {
-        "php":                       "~7.4.1 || ^8.0",
+        "php":                       "~7.4.1",
         "laminas/laminas-code":      "^3.4.1",
-        "albundi/package-versions": "main",
+        "ocramius/package-versions": "^1.8.0,<1.10.0",
         "webimpress/safe-writer":    "^2.0.1"
     },
     "conflict": {
@@ -59,12 +59,6 @@
             "Laminas\\Server\\": "tests/Stubbed/Laminas/Server"
         }
     },
-    "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/danagnostos/PackageVersions.git"
-    }
-  ],
     "extra": {
         "branch-alias": {
             "dev-master": "3.0.x-dev"
